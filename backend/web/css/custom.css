@@ -1,0 +1,80 @@
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&&family=Kanit&family=Itim&family=Mali:wght@500&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/sweetalert2@11");
+
+/* font */
+*,
+.panel-title {
+  /* font-family: 'Mali', cursive; */
+  font-family: "Chakra Petch", sans-serif;
+  /* font-family: 'Kanit', sans-serif; */
+  /* font-family: 'Itim', cursive; */
+}
+
+.logout-link {
+  color: red;
+  /* Set the color of the logout link to red */
+  text-decoration: none;
+  /* Remove any underlines or styling */
+}
+
+.help-block {
+  color: red;
+  animation: blink 1s infinite;
+}
+
+.home-link {
+  background-color: #5534a5;
+}
+
+.register-link {
+  background-color: #ff6d60;
+}
+
+.sign-in-link {
+  background-color: #ff3442;
+}
+
+.backend-link {
+  background-color: #C38154;
+}
+
+.report-link {
+  background-color: #0d4c92;
+}
+
+.requester-link {
+  background-color: #00c0ef;
+}
+
+.reviewer-link {
+  background-color: #f39c12;
+}
+
+.approver-link {
+  background-color: #00a65a;
+}
+
+/* ข้อความกระพริบ */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+/* ปิด highcharts-credits */
+.highcharts-credits {
+  display: none !important;
+}
